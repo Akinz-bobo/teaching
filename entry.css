@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+/* .nav_container {
+  background-color: rgb(66, 66, 66);
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.logo {
+  background: red;
+  height: 100%;
+}
+
+.links {
+  background-color: blue;
+  height: 100%;
+  justify-self: end; */
+/* } */
+
+.nav_container {
+  background-color: rgb(66, 66, 66);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
